@@ -1,0 +1,11 @@
+date_format="%Y/%m/%d   %H:%M:%S"
+logger_name="Logger"
+
+[file_log]
+    format="%(name)s   %(asctime)s   %(levelname)-8s   %(message)s"
+    level="debug"
+    filename="logs/log.txt"
+
+[console_log]
+    format="\u001B[2m[%(levelname)-8s]\u001B[0m   %(message)s"
+    level="info"
